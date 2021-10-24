@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Roulette</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<a href="/login">Admin Login</a>
+
+<body>
+  <h1>Lets Play: Roulette</h1>
+  <p>Place your bet, select the color choice, then press the 'Submit' button.</p>
+
+  <input type="number" placeholder="Bet Amount ($)" name="msg" class="betAmount">
+  <input type="hidden" value="" placeholder="BetValue" name="bet" class="betValue">
+  <button type="submit" class="submitBtn">Submit</button>
+  <br><br>
+  <input type="button" value="Red" class="betChoice" id="red">
+  <input type="button" value="Black" class="betChoice">
+  <input type="button" value="Green" class="betChoice">
+
+  <script src="main.js"></script>
+</body>
+
+</html>

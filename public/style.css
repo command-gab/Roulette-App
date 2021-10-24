@@ -1,0 +1,38 @@
+body{
+  padding-top:80px;
+  word-wrap:break-word;
+}
+
+img{
+  height: 200px;
+}
+
+html{
+  background: url(img/wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 750px; 
+}
+
+h1, p, a{
+  color: white;
+  text-align: center;
+}
+
+a{
+  margin-left: 68%;
+}
+
+input{
+  margin-top: 5%;
+  margin-left: 43%;
+}
+
+#red{
+  margin-left: 43%;
+}
+input[type=button]{
+  margin-left: 2%;
+
+}
